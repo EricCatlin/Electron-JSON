@@ -1,0 +1,16 @@
+<div class='boolean card row valign-wrapper' ng-hide='options.hidden && !AdminService.admin' style='border-radius:10px 0px 0px 10px ;border-left:5px solid yellow'
+	options-logic admin>
+	<admin-controls class='valign' style='border:yellow 1px solid ; border-radius:0px 10px 10px 0px ;'></admin-controls>
+	<div class='input-field col {{AdminService.admin?"s11" : "s12" }} row'>
+
+		{{key}} :
+		<div class="switch">
+			<label>
+       False
+      <input type="checkbox"  ng-attr-id='{{options.unique_id}}'  ng-model='value' ng-disabled="options.locked_by_parent || options.locked" ng-model-options="{ updateOn: 'blur' }">
+      <span class="lever"></span>
+      True
+    </label>
+		</div>
+	</div>
+</div>

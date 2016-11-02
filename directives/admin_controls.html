@@ -1,0 +1,11 @@
+<div class='admin_controls' ng-show='AdminService.admin' >
+	<div ng-click='toggle_locked()' class='left' >
+		<i class="material-icons " ng-click='toast((options.locked) ? "Unlocked" : "Locked")'>{{(options.locked) ? "lock_outline" : "lock_open" }}</i>
+	</div>
+	<div ng-click='options.hidden= !options.hidden' class='left'>
+		<i class="material-icons" ng-click='toast((options.hidden) ? "Visible" : "Hidden")'>{{(!options.hidden) ? "visibility" : "visibility_off" }}</i>
+	</div>
+	<div ng-click='options.highlight= !options.highlight' class='left'>
+		<i class="material-icons" ng-click='toast((!options.highlight) ? "highlighted" : "highlight off")'>{{(options.highlight) ? "highlight" : "highlight_off" }}</i>
+	</div>
+</div>

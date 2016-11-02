@@ -24,5 +24,14 @@
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "devDependencies": {
     "electron": "^1.3.4"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "electron-packager": "^8.1.0",
+    "hammer": "0.0.5",
+    "hammerjs": "^2.0.8",
+    "materialize": "^1.0.0",
+    "path": "^0.12.7",
+    "pickadate": "^3.5.6"
   }
 }

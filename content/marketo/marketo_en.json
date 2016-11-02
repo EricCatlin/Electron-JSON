@@ -1,0 +1,1593 @@
+﻿{
+  "FormData": {
+    "MarketoTitle": "Let’s get started! ",
+    "MarketoText": "Fill out this form to begin the assessment. Providing this information helps us to send you more relevant resources to continue improving your data capabilities.",
+    "MarketoListTitle": "At the end of the assessment you will receive:",
+    "MarketoList1": "A comprehensive view of current and future data capabilities.",
+    "MarketoList2": "Recommendations, helpful tips, and resources for planning your data capability advancement.",
+    "MarketoList3": "Ability to print and share your complete assessment results."
+  },
+  "UserInfo": {
+    "FirstName": {
+      "Display": "First Name",
+      "Value": ""
+    },
+    "LastName": {
+      "Display": "Last Name",
+      "Value": ""
+    },
+    "CompanyName": {
+      "Display": "Company Name",
+      "Value": ""
+    },
+    "BuisnessPhone": {
+      "Display": "Business Phone",
+      "Value": ""
+    },
+    "JobRole": {
+      "Display": "Job Role",
+      "Value": ""
+    },
+    "Location": {
+      "Display": "Location",
+      "Value": ""
+    },
+    "BuisnessEmail": {
+      "Display": "Business Email*",
+      "Value": ""
+    }
+  },
+  "Countries": {
+    "PrivacyNotice": "Microsoft may use your contact information to provide updates and special offers about Data Management and other Microsoft products and services.  You can unsubscribe at any time. To learn more you can read the ",
+    "PrivacyNoticeUrlText": "privacy statement.",
+    "PrivacyNoticeUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "PrivacyEmailLable": "Yes.",
+    "ContactMap": {
+      "0": "Unknown",
+      "1": "Do Not Contact",
+      "2": "OK to Contact"
+    },
+    "PrivacyPhoneLable": "Contact me by phone",
+    "SelectedOption": {
+      "Name": "United States",
+      "Phone": "Notice",
+      "Email": "Notice",
+      "Legal": {
+        "PrivacyRequired": false,
+        "EmailOpt": 2,
+        "PhoneOpt": 2
+      }
+    },
+    "Options": [
+      {
+        "Name": "United States",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Canada",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        },
+        "Phone": "Opt-out",
+        "Email": "Opt-in"
+      },
+      {
+        "Name": "Turkmenistan",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Lithuania",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Ethiopia",
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Swaziland",
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Argentina",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Bolivia",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Cameroon",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Burkina Faso",
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Bahrain",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Saudi Arabia",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Cape Verde",
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Slovenia",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Guatemala",
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Kuwait",
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Jordan",
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Spain",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Liberia",
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Netherlands",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Pakistan",
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Oman",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Tanzania",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Gabon",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Monaco",
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "New Zealand",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Yemen",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Jamaica",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Macau",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "United Arab Emirates",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "India",
+
+        "Phone": "Opt-out",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": "Notice",
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Azerbaijan",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Lesotho",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "São Tomé and Príncipe",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Kenya",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Turkey",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Czech Republic",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Mauritania",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "France",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Rwanda",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Slovakia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Peru",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Norway",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Malawi",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Benin",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Korea",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Singapore",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Republic of the Congo",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Togo",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "China",
+
+        "Phone": "Notice",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": "Notice"
+        }
+      },
+      {
+        "Name": "Armenia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Dominican Republic",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Ukraine",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Ghana",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Indonesia",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Libya",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Finland",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Central African Republic",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Mauritius",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Liechtenstein",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Vietnam",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Mali",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Russia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Bulgaria",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Romania",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Angola",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Portugal",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in ",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "South Africa",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Sweden",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Qatar",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Malaysia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Austria",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Mozambique",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Uganda",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Hungary",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Niger",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Brazil",
+
+        "Phone": "Opt-in",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": "Notice",
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Guinea",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Panama",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Costa Rica",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Luxembourg",
+
+        "Phone": "Opt-in ",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Ireland",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Nigeria",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Ecuador",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Australia",
+
+        "Phone": "Opt-out ",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Iran",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Algeria",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "El Salvador",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Chile",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Belgium",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Thailand",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Iraq",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Hong Kong",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Georgia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Denmark",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Philippines",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Morocco",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Croatia",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Guinea-Bissau",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Switzerland",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Seychelles",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Chad",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Estonia",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Uruguay",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Equatorial Guinea",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Lebanon",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Tunisia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Colombia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Burundi",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Taiwan",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Cyprus",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Madagascar",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Italy",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Sudan",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Malta",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Democratic Republic of the Congo",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Venezuela",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Israel",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Iceland",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Zambia",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Senegal",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Zimbabwe",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Germany",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Gambia",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Kazakhstan",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Poland",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Eritrea",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Cte d'Ivoire",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Macedonia",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Trinidad and Tobago",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Latvia",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Japan",
+
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Syria",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Honduras",
+
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Mexico",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Egypt",
+
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Serbia",
+        "Phone": "Opt-in",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "United Kingdom",
+        "Phone": "Opt-out",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Greece",
+        "Phone": "Opt-in ",
+        "Email": "Opt-in",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 1,
+          "PhoneOpt": 1
+        }
+      },
+      {
+        "Name": "Paraguay",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Namibia",
+        "Phone": "Opt-out",
+        "Email": "Opt-out",
+        "Legal": {
+          "PrivacyRequired": true,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      },
+      {
+        "Name": "Botswana",
+        "Phone": "Notice",
+        "Email": "Notice",
+        "Legal": {
+          "PrivacyRequired": false,
+          "EmailOpt": 2,
+          "PhoneOpt": 2
+        }
+      }
+    ]
+  }
+}

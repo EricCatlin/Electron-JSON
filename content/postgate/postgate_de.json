@@ -1,0 +1,896 @@
+﻿{
+  "PostGate": {
+    "RecommendedResults": {
+      "Sections": {
+        "OLTP": {
+          "Q1": {
+            "H1": "To move beyond Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create a database management system that can deliver mission-critical capabilities to applications with improved scalability, in-memory processing and analysis, and high availability—whether your data is on-premises or in the cloud."
+              },
+              {
+                "BullitPoint": "Get faster, more valuable analytics data by performing advanced analytics directly within your data management system."
+              },
+              {
+                "BullitPoint": "Directly query across structured and unstructured data with advanced capabilities in data management solutions like SQL Server."
+              }
+            ]
+          },
+          "Q2": {
+            "H1": "To move from Predictive to Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create a database platform that can deliver mission-critical capabilities to applications with improved scalability, in-memory processing and analysis, and high availability—whether your data is on-premises or in the cloud—or both. "
+              },
+              {
+                "BullitPoint": "Enjoy better performance and real-time operational analytics using the latest solutions like Microsoft SQL Server 2016. "
+              },
+              {
+                "BullitPoint": "Get faster, more valuable analytics data by performing advanced analytics directly within your data management system."
+              }
+            ]
+          },
+          "Q3": {
+            "H1": "To move from Informative to Predictive, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create a database management system that can deliver mission-critical capabilities to applications with improved scalability, in-memory processing and analysis, and high availability—whether your data is on-premises or in the cloud—or both."
+              },
+              {
+                "BullitPoint": "Take advantage of in-memory performance and security technologies by using the in-memory OLTP in SQL Server 2016 to experience up to a 30x improvement in transactional performance or using Always Encrypted to and protect your data at rest and in motion."
+              },
+              {
+                "BullitPoint": "Get the benefits of a hybrid cloud by building, deploying, and managing solutions that complement your existing on-premises investments."
+              }
+            ]
+          },
+          "Q4": {
+            "H1": "To move from Reactive to Informative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Implement a database management system that can deliver mission-critical capabilities to applications with improved scalability, in-memory performance, and high availability."
+              },
+              {
+                "BullitPoint": "Make significant gains in data security by moving to the latest database technologies. For example, with security innovations in Microsoft SQL Server 2016 like Always Encrypted, you can protect data at rest and in motion—and provide more layers of protection than ever before."
+              }
+            ]
+          }
+        },
+        "EDW": {
+          "Q4": {
+            "H1": "To move from Reactive to Informative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create one version of the truth by bringing together siloed and dated data marts into a single modern enterprise data warehouse."
+              }
+            ]
+          },
+          "Q3": {
+            "H1": "To move from Informative to Predictive, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Establish a relationship with a data warehousing partner who can sufficiently meet your current needs and support future growth in your data and user loads."
+              }
+            ]
+          },
+          "Q2": {
+            "H1": "To move from Predictive to Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Establish a relationship with a data warehousing partner who can sufficiently meet your current needs and support future growth in your data and user loads."
+              },
+              {
+                "BullitPoint": "Utilize in-memory processing to advance your scaling and performance capabilities. "
+              }
+            ]
+          },
+          "Q1": {
+            "H1": "To move beyond Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Establish a relationship with a data warehousing partner who can sufficiently meet your current needs and support future growth in your data and user loads."
+              },
+              {
+                "BullitPoint": "Implement solutions that enable you to perform big data and real-time advanced analytics on all of your data."
+              },
+              {
+                "BullitPoint": "Introduce technology that supports real-time analytics, machine learning, or cognitive services to perform advanced analytics."
+              }
+            ]
+          }
+        },
+        "EDL": {
+          "Q1": {
+            "H1": "To move beyond Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Closely integrate big data and data warehousing. Query and join data—whether it’s relational or non-relational, on-premises or in the cloud—inside of your relational data warehouse with data in a big data store."
+              }
+            ]
+          },
+          "Q2": {
+            "H1": "To move from Predictive to Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Expand your big data footprint to more users by giving them easier tooling and languages to develop in. For example, integration between Microsoft SQL Server and Microsoft Visual Studio allows you to visualize how your code runs at scale and identify performance bottlenecks and cost optimizations, which makes it easier to tune your queries. In the hands of more users, big data can transform your business so that everyone will be making data-driven decisions and finding new insights."
+              }
+            ]
+          },
+          "Q3": {
+            "H1": "To move from Informative to Predictive, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Perform big data analytics on your unstructured data. Organizations who not only store their unstructured data but also analyze it can discover impactful insights into their business. For example, they can create a personalized customer experience that changes based on customer behavior, or even offer recommended products that include dynamic discounts for a personalized shopping experiences. All of these experiences give your business the competitive advantage."
+              },
+              {
+                "BullitPoint": "Use open source big data frameworks like Hadoop and Spark or use U-SQL, a big data language from Microsoft that combines C# and T-SQL. "
+              }
+            ]
+          },
+          "Q4": {
+            "H1": "To move from Reactive to Informative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Store unstructured data in stores capable of big data processing and analysis. Data volumes are expanding tenfold every five years, where much of the growth is coming from unstructured data driven by devices and the Internet. Instead of making cost tradeoffs on what data to hold onto, retain all of your data so you can meet regulatory compliance and uncover new insights to make better products and more informed decisions."
+              }
+            ]
+          }
+        },
+        "AA": {
+          "Q1": {
+            "H1": "To move beyond Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Trigger automated rules to respond to the analysis of data sets integrated in real time."
+              },
+              {
+                "BullitPoint": "Keep improving your business processes and quickly reshape your predictive models on the go for live scenarios."
+              }
+            ]
+          },
+          "Q2": {
+            "H1": "To move from Predictive to Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Plan for the future by analyzing and modeling diverse data structures that are centralized and updated in real time—whether you’re on-premises, in the cloud, or in a hybrid environment."
+              },
+              {
+                "BullitPoint": "Enable your analytics platform across your departments using both BI and predictive models in real time to respond to changing business conditions and make dynamic changes."
+              },
+              {
+                "BullitPoint": "Build fully personalized experiences for your customers based on refined data such as demographics, locations, and behavior."
+              }
+            ]
+          },
+          "Q3": {
+            "H1": "To move from Informative to Predictive, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Take your analytics to the next level with industry-leading solutions like Cortana Intelligence Suite or Microsoft R Server to benefit from best-in-class big data, advanced analytics, and intelligence services."
+              },
+              {
+                "BullitPoint": "Make smarter decisions evolving to self-service tools companywide to separately display relational and non-relational data sets available through a virtualized network."
+              },
+              {
+                "BullitPoint": "Evolve from pattern detection to data-driven proactive approaches using predictive models and perceptual intelligence."
+              }
+            ]
+          },
+          "Q4": {
+            "H1": "To move from Reactive to Informative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Progress your analytics from a descriptive approach powered by ad-hoc, manual, and heterogeneous reports to consolidated self-service analytics for better forecasts, spanning the whole organization in collaboration with your IT department."
+              },
+              {
+                "BullitPoint": "Get to know your business better through reports built using structured data aggregated from multiple channels for better insights."
+              }
+            ]
+          }
+        },
+        "BI": {
+          "Q1": {
+            "H1": "To move beyond Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Enable tools like Quick Insights in Power BI to help users easily search data for outliers, trends, and other interesting insights to get started with deeper data analysis."
+              },
+              {
+                "BullitPoint": "Focus on making it even easier for your users to gain insights from their data by simply asking questions in natural language using smart technology such as Cortana."
+              }
+            ]
+          },
+          "Q2": {
+            "H1": "To move from Predictive to Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Implement a hybrid BI solution to easily access on-premises and cloud-based data. You can provide live, interactive BI dashboards and reports with visualizations and analytics that compare on-premises historical data with real-time cloud-born data to create a consolidated and holistic view of the business. "
+              },
+              {
+                "BullitPoint": "Deliver paginated, mobile reports and KPIs from one modern web portal experience for on-premises data."
+              }
+            ]
+          },
+          "Q3": {
+            "H1": "To move from Informative to Predictive, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Deliver a modern web portal experience with mobile reports using IT-delivered BI solutions."
+              },
+              {
+                "BullitPoint": "Use BI tools to seamlessly share and monitor important data across the organization."
+              },
+              {
+                "BullitPoint": "Help keep mobile users connected and informed virtually anywhere with native Windows, iPhone, and Android apps."
+              },
+              {
+                "BullitPoint": "Get started quickly with out-of-the-box content that connects with SaaS applications to easily roll out customized dashboards and reports across your organization."
+              },
+              {
+                "BullitPoint": "Integrate your app or service with BI tools to help deliver business insights in the context of a business app."
+              }
+            ]
+          },
+          "Q4": {
+            "H1": "To move from Reactive to Informative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create one version of the truth by transforming data from multiple systems into data models that can be easily accessed and understood by your users."
+              },
+              {
+                "BullitPoint": "Deliver powerful data models that users can easily access with data visualization tools."
+              },
+              {
+                "BullitPoint": "Standardize on fewer BI tools for self-service and corporate BI so you can access data across your organization more easily."
+              },
+              {
+                "BullitPoint": "Enable your business analyst to create ad-hoc analysis and interactive data exploration whether your data resides on-premises, in the cloud, or a combination of both."
+              }
+            ]
+          }
+        },
+        "Cloud": {
+          "Q1": {
+            "H1": "To move beyond Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create a database platform that can deliver mission-critical capabilities both on premises and in the cloud."
+              },
+              {
+                "BullitPoint": "Move from simply using a public cloud for disaster recovery or workload scaling to strategically scaling out cloud-based readable secondaries for global BI scale. Gain the benefits of a hybrid cloud with new scenarios such as Stretch Database that lets you stretch your warm and cold transactional data to Microsoft Azure."
+              },
+              {
+                "BullitPoint": "Build your own SaaS applications with Azure SQL Database and move data warehouse workloads to the cloud for cost-effective MPP at scale with Microsoft Azure SQL Data Warehouse."
+              }
+            ]
+          },
+          "Q2": {
+            "H1": "To move from Predictive to Transformative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Create a database management system that can deliver mission-critical capabilities both on-premises and in the cloud."
+              },
+              {
+                "BullitPoint": "Use a public cloud to create a continuity disaster recovery plan by backing up to cloud storage or maintaining failover replicas in the cloud."
+              },
+              {
+                "BullitPoint": "Easily move development and test or production workloads to the cloud as you modernize them using consistent tooling and features in Microsoft SQL Server and Azure."
+              }
+            ]
+          },
+          "Q3": {
+            "H1": "To move from Informative to Predictive, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Use a public cloud to create a disaster recovery plan by backing up to cloud storage or maintaining failover replicas in the cloud."
+              },
+              {
+                "BullitPoint": "Take your cloud to the next level with an industry-leading solution like Microsoft SQL Server and benefit from breakthrough performance, scalability, and availability."
+              }
+            ]
+          },
+          "Q4": {
+            "H1": "To move from Reactive to Informative, consider these tips:",
+            "Bullits": [
+              {
+                "BullitPoint": "Move to a highly virtualized environment—whether it’s a public or private cloud—using an industry-leading solution like Microsoft SQL Server that delivers breakthrough performance, scale, and availability."
+              },
+              {
+                "BullitPoint": "Use a public or private cloud to scale on demand, manage and monitor roles and transactions, and expand development and test environments as needed."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "CtaLinks": {
+      "Sections": {
+        "OLTP": {
+          "Q4": {
+            "Link": [
+              {
+                "LinkDisplay": "Mission Critical",
+                "LinkURL": "http://download.microsoft.com/download/D/7/5/D750D5B9-8692-42FC-80D8-0EA9C3E76739/SQL_Server_2016_Mission_Critical_Performance_White_Paper.pdf"
+              },
+              {
+                "LinkDisplay": "SQL Database IDC whitepaper",
+                "LinkURL": "http://download.microsoft.com/download/A/1/D/A1D5C24B-284A-4F9C-B121-E6E5FDAB1B94/IDC-Azure-SQL-DB-Value-2015.pdf"
+              }
+            ]
+          },
+          "Q3": {
+            "Link": [
+              {
+                "LinkDisplay": "Hyperscale cloud",
+                "LinkURL": "http://download.microsoft.com/download/8/7/F/87F5D41A-6252-4B5E-B532-EA3E3706216F/SQL_Server_2016_Hyperscale_Cloud_White_Paper.pdf"
+              },
+              {
+                "LinkDisplay": "WS+ SS Better Together",
+                "LinkURL": "http://download.microsoft.com/download/0/4/A/04A4A3E9-7FFC-423A-B9C8-26D5412A5DE4/SQL_Server_2016_and_Windows_Server_2016_Better_Together_White_Paper_EN_US.pdf"
+              },
+              {
+                "LinkDisplay": "SQL Database IDC whitepaper",
+                "LinkURL": "http://download.microsoft.com/download/A/1/D/A1D5C24B-284A-4F9C-B121-E6E5FDAB1B94/IDC-Azure-SQL-DB-Value-2015.pdf"
+              }
+            ]
+          },
+          "Q2": {
+            "Link": [
+              {
+                "LinkDisplay": "In-memory OLTP",
+                "LinkURL": "http://download.microsoft.com/download/8/3/6/8360731A-A27C-4684-BC88-FC7B5849A133/SQL_Server_2016_In_Memory_OLTP_White_Paper.pdf"
+              },
+              {
+                "LinkDisplay": "In-mem OLTP & columnstore comparison",
+                "LinkURL": "http://download.microsoft.com/download/D/0/0/D0075580-6D72-403D-8B4D-C3BD88D58CE4/SQL_Server_2016_In_Memory_OLTP_and_Columnstore_Comparison_White_Paper.pdf"
+              },
+              {
+                "LinkDisplay": "Hyperscale cloud",
+                "LinkURL": "http://download.microsoft.com/download/8/7/F/87F5D41A-6252-4B5E-B532-EA3E3706216F/SQL_Server_2016_Hyperscale_Cloud_White_Paper.pdf"
+              }
+            ]
+          },
+          "Q1": {
+            "Link": [
+              {
+                "LinkDisplay": "Gartner First Step to AA",
+                "LinkURL": "https://info.microsoft.com/CO-AAIoT-CNTNT-FY16-01Jan-11-Gartner-First-Step-to-Advanced-Analytics-Registration.html?ls=website&lsd=nrtr-aaiot-increasespeed"
+              },
+              {
+                "LinkDisplay": "Blog",
+                "LinkURL": "https://blogs.technet.microsoft.com/dataplatforminsider/"
+              }
+            ]
+          }
+        },
+        "EDW": {
+          "Q4": {
+            "Link": [
+              {
+                "LinkDisplay": "Microsoft SQL Server Fast Track Data Warehousing",
+                "LinkURL": "http://www.microsoft.com/en-ca/server-cloud/data-warehouse-fast-track.aspx"
+              },
+              {
+                "LinkDisplay": "Analytics Platform System",
+                "LinkURL": "http://www.microsoft.com/en-us/cloud-platform/analytics-platform-system"
+              },
+              {
+                "LinkDisplay": "Azure SQL Data Warehouse",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/"
+              }
+            ]
+          },
+          "Q3": {
+            "Link": [
+              {
+                "LinkDisplay": "Microsoft SQL Server Fast Track Data Warehousing",
+                "LinkURL": "http://www.microsoft.com/en-ca/server-cloud/data-warehouse-fast-track.aspx"
+              },
+              {
+                "LinkDisplay": "A Technical Reference Guide for Designing Mission-Critical DW Solutions",
+                "LinkURL": "https://technet.microsoft.com/en-us/library/hh393514(v=sql.110).aspx"
+              },
+              {
+                "LinkDisplay": "Analytics Platform System",
+                "LinkURL": "http://www.microsoft.com/en-us/cloud-platform/analytics-platform-system"
+              },
+              {
+                "LinkDisplay": "Azure SQL Data Warehouse ",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/"
+              }
+            ]
+          },
+          "Q2": {
+            "Link": [
+              {
+                "LinkDisplay": "Microsoft SQL Server Fast Track Data Warehousing",
+                "LinkURL": "http://www.microsoft.com/en-ca/server-cloud/data-warehouse-fast-track.aspx"
+              },
+              {
+                "LinkDisplay": "Analytics Platform System",
+                "LinkURL": "http://www.microsoft.com/en-us/cloud-platform/analytics-platform-system"
+              },
+              {
+                "LinkDisplay": "Azure SQL Data Warehouse ",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/"
+              },
+              {
+                "LinkDisplay": "Microsoft Data warehousing and Big Data",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/data-warehouse-big-data"
+              },
+              {
+                "LinkDisplay": "Nasdaq video case study: Manage over 1 PB of data",
+                "LinkURL": "https://www.youtube.com/watch?v=AW87RzZJ0Z0"
+              },
+              {
+                "LinkDisplay": "TPC-H benchmark results for data warehousing performance",
+                "LinkURL": "http://www.tpc.org/tpch/results/tpch_perf_results.asp?resulttype=noncluster&amp;version=2%25&amp;currencyID=0"
+              }
+            ]
+          },
+          "Q1": {
+            "Link": [
+              {
+                "LinkDisplay": "Microsoft SQL Server Fast Track Data Warehousing",
+                "LinkURL": "http://www.microsoft.com/en-ca/server-cloud/data-warehouse-fast-track.aspx"
+              },
+              {
+                "LinkDisplay": "SQL Server R Services",
+                "LinkURL": "http://www.microsoft.com/en-us/cloud-platform/sql-server-r-services"
+              },
+              {
+                "LinkDisplay": "Scaling advanced analytics with R in SQL Server Video",
+                "LinkURL": "https://www.youtube.com/watch?v=wGsvh1OF3S0"
+              },
+              {
+                "LinkDisplay": "Getting Started with SQL Server R Services",
+                "LinkURL": "https://msdn.microsoft.com/library/mt604885.aspx"
+              },
+              {
+                "LinkDisplay": "Analytics Platform System",
+                "LinkURL": "http://www.microsoft.com/en-us/cloud-platform/analytics-platform-system"
+              },
+              {
+                "LinkDisplay": "Azure SQL Data Warehouse ",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/"
+              },
+              {
+                "LinkDisplay": "Use Azure Stream Analytics with Azure SQL Data Warehouse",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/articles/sql-data-warehouse-integrate-azure-stream-analytics/"
+              },
+              {
+                "LinkDisplay": "Use Azure Machine Learning with SQL Data Warehouse",
+                "LinkURL": "https://azure.microsoft.com/en-us/blog/using-azure-machine-learning-with-sql-data-warehouse/"
+              }
+            ]
+          }
+        },
+        "EDL": {
+          "Q4": {
+            "Link": [
+              {
+                "LinkDisplay": "What is Hadoop?",
+                "LinkURL": "https://azure.microsoft.com/en-us/solutions/hadoop/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake",
+                "LinkURL": "https://azure.microsoft.com/en-us/solutions/data-lake/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Analytics",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Store",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-store/"
+              },
+              {
+                "LinkDisplay": "Azure HDInsight",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/hdinsight/"
+              },
+              {
+                "LinkDisplay": "PolyBase introduction video",
+                "LinkURL": "https://www.youtube.com/watch?v=t56FbkwMMdA"
+              },
+              {
+                "LinkDisplay": "Microsoft Data warehousing and Big Data",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/data-warehouse-big-data"
+              },
+              {
+                "LinkDisplay": "Beth Israel Deaconess Medical Center",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=13778"
+              }
+            ]
+          },
+          "Q3": {
+            "Link": [
+              {
+                "LinkDisplay": "What is Hadoop?",
+                "LinkURL": "https://azure.microsoft.com/en-us/solutions/hadoop/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake",
+                "LinkURL": "https://azure.microsoft.com/en-us/solutions/data-lake/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Analytics",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/"
+              },
+              {
+                "LinkDisplay": "U-SQL for Big Data – A definitive guide",
+                "LinkURL": "https://info.microsoft.com/CO-Azure-WBNR-FY16-02Feb-16-U-SQL-for-Big-Data-Registration.html?ls=AzureCLE"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Store",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-store/"
+              },
+              {
+                "LinkDisplay": "Azure HDInsight",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/hdinsight/"
+              },
+              {
+                "LinkDisplay": "PolyBase introduction video",
+                "LinkURL": "https://www.youtube.com/watch?v=t56FbkwMMdA"
+              },
+              {
+                "LinkDisplay": "Microsoft Data warehousing and Big Data",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/data-warehouse-big-data"
+              },
+              {
+                "LinkDisplay": "Pier 1 Video Case Study",
+                "LinkURL": "https://www.youtube.com/watch?v=fN8Cixcc5yg"
+              },
+              {
+                "LinkDisplay": "Pier 1 Case Study",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=11257"
+              },
+              {
+                "LinkDisplay": "Jet.com Video Case Study",
+                "LinkURL": "https://www.youtube.com/watch?v=abci_fMcPls"
+              },
+              {
+                "LinkDisplay": "Jet.com Case Study",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=23392"
+              }
+            ]
+          },
+          "Q2": {
+            "Link": [
+              {
+                "LinkDisplay": "Azure Data Lake",
+                "LinkURL": "https://azure.microsoft.com/en-us/solutions/data-lake/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Analytics",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/"
+              },
+              {
+                "LinkDisplay": "U-SQL for Big Data – A definitive guide",
+                "LinkURL": "https://info.microsoft.com/CO-Azure-WBNR-FY16-02Feb-16-U-SQL-for-Big-Data-Registration.html?ls=AzureCLE"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Documentation",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/services/data-lake-analytics/"
+              },
+              {
+                "LinkDisplay": "Data Lake Visual Studio Integration",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/articles/data-lake-analytics-data-lake-tools-get-started/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Store",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-store/"
+              },
+              {
+                "LinkDisplay": "Azure HDInsight",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/hdinsight/"
+              },
+              {
+                "LinkDisplay": "Azure HDInsight documentation",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/services/hdinsight/"
+              },
+              {
+                "LinkDisplay": "HDInsight Visual Studio Integration",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-visual-studio-tools-get-started/"
+              },
+              {
+                "LinkDisplay": "PolyBase introduction video",
+                "LinkURL": "https://www.youtube.com/watch?v=t56FbkwMMdA"
+              },
+              {
+                "LinkDisplay": "Microsoft Data warehousing and Big Data",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/data-warehouse-big-data"
+              },
+              {
+                "LinkDisplay": "Virginia Tech Video Case Study",
+                "LinkURL": "https://www.youtube.com/watch?v=TnhZqkLchIM"
+              },
+              {
+                "LinkDisplay": "Virginia Tech Case Study",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=520"
+              }
+            ]
+          },
+          "Q1": {
+            "Link": [
+              {
+                "LinkDisplay": "Azure Data Lake",
+                "LinkURL": "https://azure.microsoft.com/en-us/solutions/data-lake/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Analytics",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/"
+              },
+              {
+                "LinkDisplay": "Azure Data Lake Store",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/data-lake-store/"
+              },
+              {
+                "LinkDisplay": "Azure HDInsight",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/hdinsight/"
+              },
+              {
+                "LinkDisplay": "PolyBase introduction video",
+                "LinkURL": "https://www.youtube.com/watch?v=t56FbkwMMdA"
+              },
+              {
+                "LinkDisplay": "PolyBase in Azure SQL Data Warehouse",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/articles/sql-data-warehouse-load-polybase-guide/"
+              },
+              {
+                "LinkDisplay": "Microsoft Data warehousing and Big Data",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/data-warehouse-big-data"
+              },
+              {
+                "LinkDisplay": "Tangerine Case Study",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=14594"
+              }
+            ]
+          }
+        },
+        "AA": {
+          "Q4": {
+            "Link": [
+              {
+                "LinkDisplay": "Learn more about Advanced Analytics",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/advanced-analytics"
+              },
+              {
+                "LinkDisplay": "Ebook - Understanding Advanced Analytics",
+                "LinkURL": "https://info.microsoft.com/CO-AAIoT-CNTNT-FY16-02Feb-01-Adv-Analytics-eBook-Registration.html?ls=website&lsd=nrtr-aaiot-retail"
+              },
+              {
+                "LinkDisplay": "Read Gartner’s How to Take a First Step to Advanced Analytics report ",
+                "LinkURL": "http://www.gartner.com/technology/reprints.do?id=1-2UORTST&ct=151224&st=sb"
+              }
+            ]
+          },
+          "Q3": {
+            "Link": [
+              {
+                "LinkDisplay": "Learn more about Advanced Analytics",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/advanced-analytics"
+              },
+              {
+                "LinkDisplay": "Watch the Data Science for the Rest of Us (webinar)",
+                "LinkURL": "https://channel9.msdn.com/blogs/Cloud-and-Enterprise-Premium/Data-Science-for-Rest-of-Us"
+              },
+              {
+                "LinkDisplay": "Learn more about Machine learning",
+                "LinkURL": "https://channel9.msdn.com/Blogs/Windows-Azure/Azure-Machine-Learning?ocid=player"
+              },
+              {
+                "LinkDisplay": "Gartner Magic Quadrant for Advanced Analytics Platform",
+                "LinkURL": "https://www.gartner.com/doc/reprints?id=1-2YEVU8U&ct=160210&st=sb"
+              }
+            ]
+          },
+          "Q2": {
+            "Link": [
+              {
+                "LinkDisplay": "Learn more about Advanced Analytics",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/advanced-analytics"
+              },
+              {
+                "LinkDisplay": "Cortana Intelligence Workshop",
+                "LinkURL": "https://channel9.msdn.com/events/Cortana-Analytics-Suite/CA-Suite-Workshop-10-11SEP15"
+              },
+              {
+                "LinkDisplay": "Predictive Analytics for Sales and Marketing (webinar)",
+                "LinkURL": "https://info.microsoft.com/CO-Azure-WBNR-FY16-09Sep-01-Predictive-Analytics-for-Sales-Marketing.html"
+              }
+            ]
+          },
+          "Q1": {
+            "Link": [
+              {
+                "LinkDisplay": "Learn more about Advanced Analytics",
+                "LinkURL": "https://www.microsoft.com/en-us/cloud-platform/advanced-analytics"
+              },
+              {
+                "LinkDisplay": "Cortana Intelligence Workshop",
+                "LinkURL": "https://channel9.msdn.com/events/Cortana-Analytics-Suite/CA-Suite-Workshop-10-11SEP15"
+              },
+              {
+                "LinkDisplay": "Cortana Intelligence Gallery",
+                "LinkURL": "https://gallery.cortanaintelligence.com/browse/?categories=%5b%227"
+              },
+              {
+                "LinkDisplay": "Delivering value from big data with Microsoft R and Hadoop",
+                "LinkURL": "http://download.microsoft.com/download/C/7/2/C727E326-BF7F-4B0F-8CAE-651E0FBE686F/Delivering_value_from_big_data_with_Microsoft_R_Server_and_Hadoop_white_paper_EN_US.pdf"
+              }
+            ]
+          }
+        },
+        "BI": {
+          "Q4": {
+            "Link": [
+              {
+                "LinkDisplay": "eBrochure on Microsoft BI",
+                "LinkURL": "http://download.microsoft.com/download/0/3/D/03DA73C6-87F0-4E37-A557-1515B3E64BBE/Empower_your_people_with_modern_BI_eBook_EN_US.pdf"
+              },
+              {
+                "LinkDisplay": "SQL Server Business Intelligence video",
+                "LinkURL": "https://youtu.be/UoEJ5m39s24"
+              },
+              {
+                "LinkDisplay": "SQL Server Analysis Services datasheet",
+                "LinkURL": "http://download.microsoft.com/download/2/5/A/25AF3D32-1557-4884-AA1D-858FE4F4A671/SQL_Server_2016_Analysis_Services_Datasheet_EN_US.pdf"
+              },
+              {
+                "LinkDisplay": "Analysis Services Direct Query for Tabular models",
+                "LinkURL": "https://youtu.be/pAwhZrHxzBw"
+              },
+              {
+                "LinkDisplay": "SQL Server Reporting Services datasheet",
+                "LinkURL": "http://download.microsoft.com/download/2/0/3/20347A26-D240-4BED-B2A9-6D648A69C6F3/SQL_Server_2016_Reporting_Services_datasheet_EN_US.pdf"
+              },
+              {
+                "LinkDisplay": "Monitor critical business metrics and trends at a glance with KPIs",
+                "LinkURL": "https://youtu.be/csl3cYJdhKM"
+              },
+              {
+                "LinkDisplay": "Power BI",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/what-is-power-bi/"
+              },
+              {
+                "LinkDisplay": "Power BI desktop",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/desktop/?gated=0&number=1"
+              }
+            ]
+          },
+          "Q3": {
+            "Link": [
+              {
+                "LinkDisplay": "Design mobile reports with SQL Server Mobile Report Publisher",
+                "LinkURL": "https://youtu.be/3l7THcbUUds"
+              },
+              {
+                "LinkDisplay": "Power BI Mobile",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/mobile/"
+              },
+              {
+                "LinkDisplay": "Organizational Content packs documentation",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/"
+              },
+              {
+                "LinkDisplay": "Solution templates",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/solution-templates/"
+              },
+              {
+                "LinkDisplay": "Power BI custom visuals",
+                "LinkURL": "https://app.powerbi.com/visuals/info"
+              }
+            ]
+          },
+          "Q2": {
+            "Link": [
+              {
+                "LinkDisplay": "Power BI embedded",
+                "LinkURL": "https://azure.microsoft.com/en-us/services/power-bi-embedded/"
+              },
+              {
+                "LinkDisplay": "Power BI publish to web",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/publishtoweb/"
+              },
+              {
+                "LinkDisplay": "Outputting Real-Time Stream Analytics data to a Power BI Dashboard",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/blog/outputting-real-time-stream-analytics-data-to-a-power-bi-dashboard/"
+              },
+              {
+                "LinkDisplay": "Power BI Notification Center",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/blog/power-bi-notification-center/"
+              },
+              {
+                "LinkDisplay": "Learn more about on-premises connectivity",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/gateway/"
+              }
+            ]
+          },
+          "Q1": {
+            "Link": [
+              {
+                "LinkDisplay": "Q&A in Power BI",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/documentation/powerbi-service-q-and-a/"
+              },
+              {
+                "LinkDisplay": "Quick Insights with Power BI",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/documentation/powerbi-service-auto-insights/"
+              },
+              {
+                "LinkDisplay": "Enable Cortana for Power BI",
+                "LinkURL": "https://powerbi.microsoft.com/en-us/documentation/powerbi-service-cortana-enable/"
+              }
+            ]
+          }
+        },
+        "Cloud": {
+          "Q4": {
+            "Link": [
+              {
+                "LinkDisplay": "SQL Server 2016 Hyperscale Cloud white paper",
+                "LinkURL": "http://download.microsoft.com/download/8/7/F/87F5D41A-6252-4B5E-B532-EA3E3706216F/SQL_Server_2016_Hyperscale_Cloud_White_Paper.pdf"
+              },
+              {
+                "LinkDisplay": "Telenor",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=4234"
+              }
+            ]
+          },
+          "Q3": {
+            "Link": [
+              {
+                "LinkDisplay": "SQL Server 2016 Hyperscale Cloud white paper",
+                "LinkURL": "http://download.microsoft.com/download/8/7/F/87F5D41A-6252-4B5E-B532-EA3E3706216F/SQL_Server_2016_Hyperscale_Cloud_White_Paper.pdf"
+              },
+              {
+                "LinkDisplay": "Forrester Cloud Backup and Disaster Recovery white paper",
+                "LinkURL": "http://download.microsoft.com/download/A/8/2/A8249BFE-A769-4259-BC00-A163A97CB2FD/Cloud_Backup_And_Disaster_Recovery_Meets_Next-Generation_Database_Demands.pdf"
+              },
+              {
+                "LinkDisplay": "Saab",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=6900"
+              },
+              {
+                "LinkDisplay": "Callaway Golf",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=10883"
+              }
+            ]
+          },
+          "Q2": {
+            "Link": [
+              {
+                "LinkDisplay": "Lufthansa Systems",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=15732"
+              },
+              {
+                "LinkDisplay": "Pact Group",
+                "LinkURL": "https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=25682"
+              },
+              {
+                "LinkDisplay": "SQL Server 2016 Infographic",
+                "LinkURL": "https://azure.microsoft.com/en-us/documentation/infographics/sql-server/"
+              },
+              {
+                "LinkDisplay": "SQL Database IDC whitepaper",
+                "LinkURL": "http://download.microsoft.com/download/A/1/D/A1D5C24B-284A-4F9C-B121-E6E5FDAB1B94/IDC-Azure-SQL-DB-Value-2015.pdf"
+              }
+            ]
+          },
+          "Q1": {
+            "Link": [
+              {
+                "LinkDisplay": "SQL Database IDC whitepaper",
+                "LinkURL": "http://download.microsoft.com/download/A/1/D/A1D5C24B-284A-4F9C-B121-E6E5FDAB1B94/IDC-Azure-SQL-DB-Value-2015.pdf"
+              },
+              {
+                "LinkDisplay": "Azure SQL Data Warehouse GA blog",
+                "LinkURL": "https://azure.microsoft.com/updates/general-availability-azure-sql-data-warehouse/"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

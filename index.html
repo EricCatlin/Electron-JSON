@@ -1,19 +1,66 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+<!DOCTYPE html >
+<html ng-app="Home">
 
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World!</title>
+	<script>
+    window.jQuery = window.$ = require('jquery');
+    window.Hammer = require('hammerjs');
+    require('./renderer.js');
   </script>
+
+	<script src="app.js"></script>
+	<script src="elements/schema.js"></script>
+	<script src="directives/json_components.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/materialize/dist/js/materialize.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<link rel="stylesheet" href="materialize-src/sass/materialize.css" />
+
+	<link rel="stylesheet" href="css.css" />
+
+
+</head>
+
+<body ng-controller="HomeController">
+	<div class='navbar-fixed'>
+	<nav>
+		<div class="nav-wrapper indigo lighten-1">
+			<a href="#!" class="brand-logo"><i class="material-icons">edit</i>JSON Editor</a>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<div class="switch">
+						<label>
+      Off
+      <input type="checkbox" ng-model='AdminService.admin'>
+      <span class="lever"></span>
+      On
+    </label> {{AdminService.admin}}
+					</div>
+				</li>
+				<li><a class="waves-effect waves-light btn blue-grey " ng-click="LoadSchema()">Load Schema</a></li>
+				<li><a class="waves-effect waves-light btn blue-grey " ng-click="SaveSchema()">Save Schema</a></li>
+				<li><a class="waves-effect waves-light btn blue-grey " ng-click="LoadJson()">Import JSON</a></li>
+				<li><a class="waves-effect waves-light btn blue-grey " ng-click="SaveJson()">Export JSON</a></li>
+
+			</ul>
+		</div>
+	</nav>
+	</div>
+	<br/>
+	<object value='resource.value' options='resource.options' key="'filename'"></object>
+
+
+
+</body>
+
+<script>
+    
+</script>
+
 </html>

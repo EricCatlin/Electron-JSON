@@ -1,0 +1,8 @@
+<div class='number card row valign-wrapper red-border {{(options.highlight)?"yellow":""}}' ng-hide='options.hidden && !AdminService.admin' style='border-radius:10px 0px 0px 10px ;border-left:5px solid' options-logic admin>
+	<admin-controls class='valign red-border s1' style='border-width: 1px 1px 1px 0px; border-style:solid; border-radius:0px 10px 10px 0px ;'></admin-controls>
+	<div class='input-field col {{AdminService.admin?"s11" : "s12" }}'>
+		<input type='number' ng-model='value' ng-disabled="options.locked_by_parent || options.locked" ng-model-options="{ updateOn: 'blur' }"
+		/>
+		<label>{{key}}</label>
+	</div>
+</div>
