@@ -3,23 +3,22 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Hello World!</title>
+	<title>JSON EDITOR</title>
 	<script>
-    window.jQuery = window.$ = require('jquery');
+	window.$ = window.jQuery = require('jquery');
     window.Hammer = require('hammerjs');
     require('./renderer.js');
   </script>
 
+
 	<script src="app.js"></script>
-	<script src="elements/schema.js"></script>
 	<script src="directives/json_components.js"></script>
 	<script src="bower_components/angular-route/angular-route.js"></script>
 	<script src="bower_components/materialize/dist/js/materialize.js"></script>
-	<script src="bower_components/jquery/dist/jquery.js"></script>
 
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	
+
 	<link rel="stylesheet" href="materialize-src/sass/materialize.css" />
 
 	<link rel="stylesheet" href="css.css" />
@@ -29,31 +28,19 @@
 
 <body ng-controller="HomeController">
 	<div class='navbar-fixed'>
-	<nav>
-		<div class="nav-wrapper indigo lighten-1">
-			<a href="#!" class="brand-logo"><i class="material-icons">edit</i>JSON Editor</a>
-			<ul class="right hide-on-med-and-down">
-				<li>
-					<div class="switch">
-						<label>
-      Off
-      <input type="checkbox" ng-model='AdminService.admin'>
-      <span class="lever"></span>
-      On
-    </label> {{AdminService.admin}}
-					</div>
-				</li>
-				<li><a class="waves-effect waves-light btn blue-grey " ng-click="LoadSchema()">Load Schema</a></li>
-				<li><a class="waves-effect waves-light btn blue-grey " ng-click="SaveSchema()">Save Schema</a></li>
-				<li><a class="waves-effect waves-light btn blue-grey " ng-click="LoadJson()">Import JSON</a></li>
-				<li><a class="waves-effect waves-light btn blue-grey " ng-click="SaveJson()">Export JSON</a></li>
-
-			</ul>
-		</div>
-	</nav>
+		<nav>
+			<div class="nav-wrapper indigo lighten-1">
+				<div class='brand-logo center'><i class="material-icons">edit</i><a class='dropdown-button btn indigo' href='#' data-activates='dropdown1'>{{(AdminService.admin) ? "Schema":"Json"}}</a>					Editor</div>
+				<ul id='dropdown1' class='dropdown-content'>
+					<li><a ng-click='AdminService.admin=false'>Json</a></li>
+					<li class="divider"></li>
+					<li><a ng-click='AdminService.admin=true'>Schema</a></li>
+				</ul>
+			</div>
+		</nav>
 	</div>
 	<br/>
-	<object value='resource.value' options='resource.options' key="'filename'"></object>
+	<object value='resource.value' options='resource.options' key="'Root'"></object>
 
 
 

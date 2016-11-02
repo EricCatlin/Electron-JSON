@@ -1,19 +1,22 @@
-<div class='object col s12 blue-grey {{(options.locked || options.locked_by_parent) ? "darken-1":"lighten-4"}}  card collection' style='border-radius:10px 0px 0px 10px; border-left:5px solid'
-	ng-show='(AdminService.admin || !options.hidden)'  options-logic admin>
-	<div class='blue-grey lighten-4 collection-header col'>
-		<admin-controls></admin-controls>
-		<div ng-click='options.expanded = !options.expanded; updateTextFields();'>
-			<span  style='padding-left:10px;'>{{key}}  { <i class="material-icons tiny  col">{{(!options.expanded) ? "add":"remove"}}</i> }</span>
+<ul class='object col s12 blue-grey {{(options.locked || options.locked_by_parent) ? "darken-1":"lighten-4"}}  card collection z-depth-3 collapsible'
+	style='border-radius:10px 0px 0px 10px; border-left:5px solid' ng-show='(AdminService.admin || !options.hidden)' data-collapsible="expandable"
+	options-logic admin>
+	<li>
+		<div class='blue-grey lighten-4 collection-header col'>
+			<admin-controls left></admin-controls>
+			<div ng-click='options.expanded = !options.expanded; updateTextFields();'>
+				<span style='padding-left:10px;'>{{key}}  { <i class="material-icons tiny  col">{{(!options.expanded) ? "add":"remove"}}</i> }</span>
+			</div>
 		</div>
-	</div>
-	<div ng-repeat='val in value'>
-		<div class='col s12 collection-item {{(options.locked || options.locked_by_parent) ? "darken-5":"lighten-3"}} {{(options.highlight)?"yellow":"grey"}}'
-			ng-show='options.expanded && (AdminService.admin || !val.options.hidden)'>
-			<string value='val.value' key='val.title' options='val.options' ng-if="val.type=='string'"></string>
-			<number value='val.value' key='val.title' options='val.options' ng-if="val.type=='number'"></number>
-			<bool value='val.value' key='val.title' options='val.options' ng-if="val.type=='boolean'"></bool>
-			<array value='val.value' key='val.title' options='val.options' ng-if="val.type=='array'"></array>
-			<object value='val.value' key='val.title' options='val.options' ng-if="val.type=='object'"></object>
+		<div ng-repeat='val in value'>
+			<div class='col s12 collection-item {{(options.locked || options.locked_by_parent) ? "darken-5":"lighten-3"}} {{(options.highlight)?"yellow":"grey"}}'
+				ng-show='options.expanded && (AdminService.admin || !val.options.hidden)'>
+				<string value='val.value' key='val.title' options='val.options' ng-if="val.type=='string'"></string>
+				<number value='val.value' key='val.title' options='val.options' ng-if="val.type=='number'"></number>
+				<bool value='val.value' key='val.title' options='val.options' ng-if="val.type=='boolean'"></bool>
+				<array value='val.value' key='val.title' options='val.options' ng-if="val.type=='array'"></array>
+				<object value='val.value' key='val.title' options='val.options' ng-if="val.type=='object'"></object>
+			</div>
 		</div>
-	</div>
-</div>
+	</li>
+</ul>

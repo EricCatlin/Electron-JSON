@@ -1,7 +1,7 @@
-<div class='array col s12 blue-grey {{(options.locked || options.locked_by_parent) ? "darken-1":"lighten-4"}}  card collection' style='border-radius:10px 0px 0px 10px; border-left:5px solid currentColor'
+<div class='array col s12 blue-grey {{(options.locked || options.locked_by_parent) ? "darken-1":"lighten-4"}} card collection {{(options.expanded)? "z-depth-3":""}}' style='border-radius:10px 0px 0px 10px; border-left:5px solid currentColor'
 	ng-show='(AdminService.admin || !options.hidden)'  options-logic admin>
 	<div class='blue-grey lighten-4 collection-header valign-wrapper'>
-		<admin-controls></admin-controls>
+		<admin-controls left></admin-controls>
 		<div ng-click='options.expanded = !options.expanded; updateTextFields();'>
 
 			<span class='col' style='padding-left:10px;'>{{key}}  [ <i class="material-icons tiny  col">{{(!options.expanded) ? "add":"remove"}}</i> ]</span>

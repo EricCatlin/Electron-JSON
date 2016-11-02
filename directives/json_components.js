@@ -4,7 +4,7 @@ angular.module('Home').directive('string', function () {
         replace: true,
         templateUrl: 'directives/string.html',
         scope: { value: '=', key: '=', options: '=' },
-       
+
     }
 });
 
@@ -14,7 +14,7 @@ angular.module('Home').directive('bool', function () {
         replace: true,
         templateUrl: 'directives/bool.html',
         scope: { value: '=', key: '=', options: '=' },
-        
+
     }
 });
 
@@ -24,7 +24,7 @@ angular.module('Home').directive('number', function () {
         replace: true,
         templateUrl: 'directives/number.html',
         scope: { value: '=', key: '=', options: '=' },
-        
+
     }
 });
 
@@ -34,7 +34,7 @@ angular.module('Home').directive('array', function () {
         replace: true,
         templateUrl: 'directives/array.html',
         scope: { value: '=', key: '=', options: '=' },
-       
+
     }
 });
 
@@ -46,7 +46,7 @@ angular.module('Home').directive('object', function () {
         replace: true,
         templateUrl: 'directives/object.html',
         scope: { value: '=', key: '=', options: '=' },
-      
+
     }
 });
 angular.module('Home').directive('adminControls', function () {
@@ -54,10 +54,19 @@ angular.module('Home').directive('adminControls', function () {
         restrict: 'E',
         replace: true,
         templateUrl: 'directives/admin_controls.html',
-        scope: false,
+        scope: true,
     }
 });
 
+angular.module('Home').directive('left', function () {
+    return {
+        restrict: 'A',
+        scope: true,
+        link: function ($scope) {
+            $scope.left = true;
+        }
+    }
+});
 angular.module('Home').directive('hoverable', function () {
     return {
         restrict: 'A',
@@ -77,11 +86,11 @@ angular.module('Home').directive('hoverable', function () {
     }
 });
 
-angular.module('Home').directive("admin", function(AdminService){
+angular.module('Home').directive("admin", function (AdminService) {
     return {
-        restrict:"A",
-        scope:false,
-          link: function (scope) {
+        restrict: "A",
+        scope: false,
+        link: function (scope) {
             scope.AdminService = AdminService;
         }
     }
@@ -122,7 +131,7 @@ angular.module('Home').directive('optionsLogic', function () {
             }
             scope.set_locked_by_parent = function () {
                 scope.options.locked_by_parent = true;
-               // if (scope.options.locked_by_parent != scope.options.locked) return;
+                // if (scope.options.locked_by_parent != scope.options.locked) return;
                 for (var child in scope.children) {
                     child = scope.children[child];
                     child.set_locked_by_parent();
@@ -136,7 +145,7 @@ angular.module('Home').directive('optionsLogic', function () {
                     child.set_unlocked_by_parent();
                 }
             }
-             scope.toast = function (message) {
+            scope.toast = function (message) {
                 Materialize.toast(message, 3000, 'rounded');
             }
         }

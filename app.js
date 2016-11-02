@@ -20,6 +20,7 @@ var LoadSchema = function (call_back) {
         });
 }
 
+
 var SaveSchema = function (content) {
     dialog.showSaveDialog(function (fileName) {
         if (fileName === undefined) {
@@ -50,6 +51,7 @@ var SaveJson = function (content) {
     });
 }
 app.controller('HomeController', function ($scope, $timeout, AdminService) {
+
     $scope.AdminService = AdminService;
     $scope.AdminService.admin = true;
     $scope.LoadJson = function () {
@@ -65,9 +67,23 @@ app.controller('HomeController', function ($scope, $timeout, AdminService) {
         SaveJson(JSON.stringify(DeSchematizeProperty($scope.resource.value)));
     }
     $scope.updateMaterialize = function () {
-        $timeout(function () { 
+        $timeout(function () {
             Materialize.updateTextFields();
- 
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrain_width: false, // Does not change width of dropdown to that of the activator
+                hover: true, // Activate on hover
+                gutter: 0, // Spacing from edge
+                belowOrigin: true, // Displays dropdown below the button
+                alignment: 'left' // Displays dropdown with edge aligned to the left of button
+            }
+            );
+            $('.collapsible').collapsible({
+                accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+               
+            }
+            );
         }, 500);
     }
     $scope.SetOpenFile = function (object) {
@@ -105,8 +121,22 @@ app.controller('HomeController', function ($scope, $timeout, AdminService) {
         $scope.updateMaterialize();
     }
 
-    
+
     $scope.SetOpenFile(SchematizeProperty("test", test_obj));
+
+    var IPC = require('electron').ipcRenderer;
+    IPC.on('LoadSchema', (event, message) => {
+        $scope.LoadSchema();
+    })
+    IPC.on('LoadJson', (event, message) => {
+        $scope.LoadJson();
+    })
+    IPC.on('SaveSchema', (event, message) => {
+        $scope.SaveSchema();
+    })
+    IPC.on('SaveJson', (event, message) => {
+        $scope.SaveJson();
+    })
 });
 
 app.service('AdminService', function () {
