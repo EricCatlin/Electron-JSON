@@ -52,6 +52,7 @@ var SaveJson = function (content) {
 }
 app.controller('HomeController', function ($scope, $timeout, AdminService) {
 
+    $scope.$ = $;
     $scope.AdminService = AdminService;
     $scope.AdminService.admin = true;
     $scope.LoadJson = function () {
@@ -79,11 +80,7 @@ app.controller('HomeController', function ($scope, $timeout, AdminService) {
                 alignment: 'left' // Displays dropdown with edge aligned to the left of button
             }
             );
-            $('.collapsible').collapsible({
-                accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-               
-            }
-            );
+             $('.collapsible').collapsible();
         }, 500);
     }
     $scope.SetOpenFile = function (object) {
@@ -194,6 +191,7 @@ function SchematizeProperty(key, val) {
             "title": key,
             "value": val,
             "options": {
+                "unique_id": guid(),
             }
 
         }
@@ -214,6 +212,7 @@ function SchematizeProperty(key, val) {
 
             "value": val,
             "options": {
+                "unique_id": guid(),
             }
         }
     }
@@ -223,6 +222,7 @@ function SchematizeProperty(key, val) {
             "value": [],
             "title": key,
             "options": {
+                "unique_id": guid(),
                 "expanded": false,
             }
         }
@@ -240,6 +240,7 @@ function SchematizeProperty(key, val) {
 
         new_obj.value = {};
         new_obj.options = {
+            "unique_id": guid(),
             "expanded": true,
         }
 

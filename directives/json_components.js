@@ -86,6 +86,7 @@ angular.module('Home').directive('hoverable', function () {
     }
 });
 
+
 angular.module('Home').directive("admin", function (AdminService) {
     return {
         restrict: "A",
@@ -96,11 +97,13 @@ angular.module('Home').directive("admin", function (AdminService) {
     }
 });
 
-angular.module('Home').directive('optionsLogic', function () {
+angular.module('Home').directive('optionsLogic', function ($anchorScroll, $location, $timeout) {
     return {
         restrict: 'A',
         scope: false,
         link: function (scope, $element) {
+            if(!scope.options.unique_id) scope.options.unique_id = guid();
+            $anchorScroll.yOffset = 64;
             if (scope.$parent.AddChild) {
                 scope.$parent.AddChild(scope);
             }
@@ -145,6 +148,14 @@ angular.module('Home').directive('optionsLogic', function () {
                     child.set_unlocked_by_parent();
                 }
             }
+            scope.gotoAnchor = function (x) {
+                scope.last_anchor = x;
+                $timeout(function(){
+                    scope.last_anchor=undefined;
+                },1000)
+                $location.hash(x);
+
+            };
             scope.toast = function (message) {
                 Materialize.toast(message, 3000, 'rounded');
             }

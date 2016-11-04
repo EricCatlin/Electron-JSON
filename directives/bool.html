@@ -1,6 +1,6 @@
-<div class='boolean card row valign-wrapper' ng-hide='options.hidden && !AdminService.admin' style='border-radius:10px 0px 0px 10px ;border-left:5px solid yellow'
-	options-logic admin>
-	<admin-controls class='valign' style='border:yellow 1px solid ; border-radius:0px 10px 10px 0px ;'></admin-controls>
+<div class='bool card row valign-wrapper orange-border {{(options.highlight)?"yellow":""}}' ng-hide='options.hidden && !AdminService.admin'
+	style='border-radius:10px 0px 0px 10px ;border-left:5px solid' options-logic admin>
+	<admin-controls class='orange-border valign' style='border-width: 1px 1px 1px 0px; border-style:solid; border-radius:0px 10px 10px 0px ;' style='width:25px'; ></admin-controls>
 	<div class='input-field col s12 row'>
 
 		{{key}} :
@@ -14,3 +14,4 @@
 		</div>
 	</div>
 </div>
+

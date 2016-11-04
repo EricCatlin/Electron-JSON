@@ -74,21 +74,21 @@ const template = [
       },
        {
         label: 'Import Json',
-        accelerator: 'CmdOrCtrl+O',
+        accelerator: 'CmdOrCtrl+I',
         click (item, focusedWindow) {
           if (focusedWindow) focusedWindow.webContents.send("LoadJson");
         }
       },
        {
         label: 'Save Schema',
-        accelerator: 'CmdOrCtrl+O',
+        accelerator: 'CmdOrCtrl+S',
         click (item, focusedWindow) {
           if (focusedWindow) focusedWindow.webContents.send("SaveSchema");
         }
       },
        {
         label: 'Export to Json',
-        accelerator: 'CmdOrCtrl+O',
+        accelerator: 'CmdOrCtrl+J',
         click (item, focusedWindow) {
           if (focusedWindow) focusedWindow.webContents.send("SaveJson");
         }

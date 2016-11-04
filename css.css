@@ -1,27 +1,14 @@
-.iron_input{
-   
+
+
+* {
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0;
 }
-.row{
-   
-}
-
-.GridRow{
- 
-  
-}
-
-.FormInputField{
-
-}
-
-.FormInputLabel{
-
-
-}
-
-.HeaderMaterial{
-     
-}
-.FormControl{
-
+* {
+  transition-property: border-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0;
 }
